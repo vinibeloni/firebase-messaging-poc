@@ -1,0 +1,22 @@
+PUT http://localhost:5252/device
+Content-Type: application/json
+
+{
+    "userId": "1",
+    "token": "yout device token"
+}
+
+######
+
+GET http://localhost:5252/device/1
+
+######
+
+POST http://localhost:5252/message
+Content-Type: application/json
+
+{
+    "userId": "1",
+    "title": "Aproveite",
+    "body": "Testando"
+}
